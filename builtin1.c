@@ -14,7 +14,11 @@ int _myhistory(info_t *info)
 }
 
 /**
+<<<<<<< HEAD
  * unset_alias - sets alias to string
+=======
+ * unset_alias- sets alento string
+>>>>>>> 8f9c745a484820905359b78b8864f4fbcb319790
  * @info: parameter struct
  * @str: the string alias
  *
@@ -37,7 +41,11 @@ int unset_alias(info_t *info, char *str)
 }
 
 /**
+<<<<<<< HEAD
  * set_alias - sets alias to string
+=======
+ * set_alias- sets alento string
+>>>>>>> 8f9c745a484820905359b78b8864f4fbcb319790
  * @info: parameter struct
  * @str: the string alias
  *
@@ -58,8 +66,13 @@ int set_alias(info_t *info, char *str)
 }
 
 /**
+<<<<<<< HEAD
  * print_alias - prints an alias string
  * @node: the alias node
+=======
+ * print_alias- prints an alenstring
+ * @node: the alennode
+>>>>>>> 8f9c745a484820905359b78b8864f4fbcb319790
  *
  * Return: Always 0 on success, 1 on error
  */
@@ -81,7 +94,11 @@ int print_alias(list_t *node)
 }
 
 /**
+<<<<<<< HEAD
  * _myalias - mimics the alias builtin (man alias)
+=======
+ * _myalias- mimics the alenbuiltin (man alias)
+>>>>>>> 8f9c745a484820905359b78b8864f4fbcb319790
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  *  Return: Always 0
