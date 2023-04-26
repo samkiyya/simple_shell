@@ -14,7 +14,7 @@ int _myhis(info_t *info)
 }
 
 /**
- * unset_alen- sets alento string
+ * unset_alias- sets alento string
  * @info: parameter struct
  * @str: the string alias
  *
@@ -37,7 +37,7 @@ int unset_alias(info_t *info, char *str)
 }
 
 /**
- * set_alen- sets alento string
+ * set_alias- sets alento string
  * @info: parameter struct
  * @str: the string alias
  *
@@ -58,7 +58,7 @@ int set_alias(info_t *info, char *str)
 }
 
 /**
- * print_alen- prints an alenstring
+ * print_alias- prints an alenstring
  * @node: the alennode
  *
  * Return: Always 0 on success, 1 on error
@@ -81,7 +81,7 @@ int print_alias(list_t *node)
 }
 
 /**
- * _myalen- mimics the alenbuiltin (man alias)
+ * _myalias- mimics the alenbuiltin (man alias)
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  *  Return: Always 0
